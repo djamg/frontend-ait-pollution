@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body,
+#blur-bg {
+  background: transparent url("assets/2017-02-02 (2).jpg");
+  opacity: 1;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+#time-value {
+  position: fixed;
+  top: 6px;
+  left: 10px;
+  width: 600px;
+  height: 120px;
+  text-align: left;
+  font: normal normal normal 80px/100px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#time-value span {
+  top: 84px;
+  left: 334px;
+  width: 100px;
+  height: 96px;
+  text-align: left;
+  font: normal normal 200 39px/103px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#date-value {
+  position: fixed;
+  top: 130px;
+  left: 10px;
+  width: 628px;
+  height: 60px;
+  text-align: left;
+  font: normal normal 200 35px/14px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#place {
+  position: fixed;
+  top: 16px;
+
+  width: 664px;
+  height: 84px;
+  text-align: right;
+  font: normal normal 200 70px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: fixed;
+  right: 10px;
+}
+
+#city {
+  position: fixed;
+  top: 106px;
+
+  width: 209px;
+  height: 59px;
+  text-align: right;
+  font: normal normal 200 42px/63px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: fixed;
+  right: 15px;
+}
+
+.logo img {
+  position: fixed;
+  width: 110px;
+  top: 20px;
+  left: 47%;
+}
+
+.box {
+  top: 353px;
+  left: 1331px;
+  width: 420px;
+  height: 170px;
+  background: #3d3d3dbd 0% 0% no-repeat padding-box;
+  border-radius: 52px;
+  opacity: 1;
+  margin-bottom: 15px;
+}
+
+.left-row {
+  position: fixed;
+  top: 188px;
+}
+
+.right-row {
+  position: fixed;
+  right: 5px;
+  top: 188px;
+}
+
+.box .img img {
+  width: 120px;
+  padding-left: 20px;
+  fill: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box #value-temperature {
+  font: normal normal 600 77px/100px Poppins;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.box .heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+/**@media only screen and (max-width: 600px) {
+  .date-time,
+  .location {
+    display: none;
+  }
+
+  .logo img {
+    position: fixed;
+    width: 60px;
+    top: 20px;
+    align-content: center;
+  }
+
+  .box img {
+    display: none;
+  }
+
+  .box {
+    font: 100;
+  }
+
+  .right-row {
+  }
+
+  .box {
+    width: 200px;
+    height: 70px;
+  }
+}
+**/
