@@ -170,3 +170,19 @@ body,
   }
 }
 **/
+
+@media only screen and (max-width: 600px) {
+  .box,
+  img,
+  .location,
+  .date-time {
+    display: none;
+  }
+  body {
+    background: url("assets/template.png");
+    opacity: 1;
+    height: 10%;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+}
