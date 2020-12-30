@@ -38,8 +38,8 @@ body,
 
 #date-value {
   position: fixed;
-  top: 130px;
-  left: 10px;
+  top: 110px;
+  left: 15px;
   width: 628px;
   height: 60px;
   text-align: left;
@@ -56,7 +56,7 @@ body,
   width: 664px;
   height: 84px;
   text-align: right;
-  font: normal normal 200 70px/90px Poppins;
+  font: normal normal 400 70px/90px Poppins;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -66,12 +66,12 @@ body,
 
 #city {
   position: fixed;
-  top: 106px;
+  top: 85px;
 
   width: 209px;
   height: 59px;
   text-align: right;
-  font: normal normal 200 42px/63px Poppins;
+  font: normal normal 400 42px/63px Poppins;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -91,7 +91,7 @@ body,
   left: 1331px;
   width: 420px;
   height: 170px;
-  background: #3d3d3dbd 0% 0% no-repeat padding-box;
+  background: #3b3b3bc0 0% 0% no-repeat padding-box;
   border-radius: 52px;
   opacity: 1;
   margin-bottom: 15px;
@@ -137,6 +137,10 @@ body,
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
+}
+
+.box .img {
+  filter: brightness(0) invert(1);
 }
 
 /* If the screen size is 600px wide or less, hide the element */
