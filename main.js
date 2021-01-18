@@ -1,4 +1,4 @@
-const api = `http://amoghdevelopment.pythonanywhere.com/list2`;
+const api = `https://amoghdevelopment.pythonanywhere.com/list2`;
 /* api */
 let temperature = document.querySelector("#value-temperature");
 let humdity = document.querySelector("#value-humidity");
