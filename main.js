@@ -1,4 +1,4 @@
-const api = `https://amoghdevelopment.pythonanywhere.com/list`;
+const api = `http://amoghdevelopment.pythonanywhere.com/list2`;
 /* api */
 let temperature = document.querySelector("#value-temperature");
 let humdity = document.querySelector("#value-humidity");
@@ -14,5 +14,10 @@ fetch(api)
     .then((data) => {
       console.log(data);
       temperature.textContent = data.Temperature;
+      humdity.textContent = data.Humidity;
+      co2.textContent = Math.round(data.MQ5);
+      ammonia.textContent = Math.round(data.MQ8);
+      airpressure.textContent = "1.01b";
+      airquality.textContent = Math.round(data.MQ135);
     });
     
