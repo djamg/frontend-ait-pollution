@@ -17,7 +17,7 @@ fetch(api)
       humdity.textContent = data.Humidity;
       co2.textContent = Math.round(data.MQ5);
       ammonia.textContent = Math.round(data.MQ8);
-      airpressure.textContent = "1.01b";
+      airpressure.textContent = "1.01";
       airquality.textContent = Math.round(data.MQ135);
     });
     
