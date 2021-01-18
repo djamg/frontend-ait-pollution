@@ -120,7 +120,12 @@ body,
   align-items: center;
 }
 
-.box #value-temperature {
+.box #value-temperature,
+#value-humidity,
+#value-co2,
+#value-ammonia,
+#value-airpressure,
+#value-airquality {
   font: normal normal 600 77px/100px Poppins;
   color: #ffffff;
   opacity: 1;
