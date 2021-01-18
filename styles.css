@@ -195,3 +195,7 @@ body,
     background-size: cover;
   }
 }
+
+#time-value {
+  text-transform: uppercase;
+}
